@@ -4,10 +4,10 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "npx strapi build",
-    "start": "npx strapi start",
-    "develop": "npx strapi develop",
-    "strapi": "npx strapi"
+    "build": "npm install -g strapi && strapi build",
+    "start": "strapi start",
+    "develop": "strapi develop",
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.4.1",
