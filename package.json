@@ -4,12 +4,10 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "strapi build",
-    "deploy": "strapi deploy",
-    "develop": "strapi develop",
-    "seed:example": "node ./scripts/seed.js",
-    "start": "strapi start",
-    "strapi": "strapi"
+    "build": "npx strapi build",
+    "start": "npx strapi start",
+    "develop": "npx strapi develop",
+    "strapi": "npx strapi"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.4.1",
